@@ -7,8 +7,8 @@ export class contact extends React.Component{
 
         return(
             <div className='contact'>
-                <h6 className='namediv'>Company name : </h6> 
-                <h2 className='namediv'>Bloggy company</h2>
+                <h6 className='namediv'>Company name: </h6> 
+                <h2 className='namediv'>Bloggy Company</h2>
                 <br/>                
                 <h6 className='namediv'>E-mail :</h6> 
                 <h2 className='namediv'>bloggy@gmail.com</h2>

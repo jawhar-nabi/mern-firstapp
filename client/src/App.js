@@ -17,7 +17,6 @@ import {about} from './components/about';
 import {contact} from './components/contact';
 
 class App extends Component {
-  
   render() {
     return (
       <React.Fragment>
@@ -36,15 +35,12 @@ class App extends Component {
               <Route path="/settings" component={settings}/>
               <Route path="/about" component={about}/>
               <Route path="/contact" component={contact}/>
-
             </Switch>
             <Footer/>
-
           </Router>
         </div>
       </React.Fragment>
     );
   }
 }
-
 export default App;

@@ -3,26 +3,16 @@ import {Card, Icon, Image} from 'semantic-ui-react';
 import {  Row, Col } from 'reactstrap';
 import axios from 'axios';
 import '../src/components/account.css';
-import { sujet } from './sujet/sujet';
-
-
 export class home extends  React.Component{
 state = { user:'',sujets1:[], sujets2:[] }
 componentDidMount(){
     axios.get('http://localhost:3000/api/sujets/recent')
       .then(res => (this.setState({ sujets1: res.data })))
-
     axios.get('http://localhost:3000/api/sujets/mostcommented')
       .then(res => this.setState({ sujets2: res.data }))
-
   }
-
-
-
 render(){
-    
     const { sujets1, sujets2 } = this.state;
-    
     return(
         <div>
             <h1 className='all'><strong>added recent: </strong></h1>
@@ -51,9 +41,6 @@ render(){
             ))}
             </Row>
             <hr/>
-            
-
-
 <h1 className='all'><strong>Most commented : </strong></h1>
 <hr/>
 <Row>
