@@ -1,0 +1,48 @@
+.rr{
+   position: relative;
+
+   }
+
+.r{
+   display: inline;
+
+    color:black;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+ }
+
+.es-ion{
+   color: black;
+}
+.upvote{
+   font-weight: bold;
+    cursor: pointer;
+    color: red;
+ }
+ .downvote{
+    cursor: pointer;
+ }
+
+ .upvote2{
+    font-size: 22px;
+   font-weight: bold;
+    cursor: pointer;
+    color: blue;
+ }
+ .downvote2{
+    cursor: pointer;
+ }
+
+
+
+ .comm{
+   position: relative;
+   }
+
+.comment-buttons{
+   position: absolute;
+   top: 10px;
+   right: 20px;
+}
+

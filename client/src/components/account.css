@@ -1,0 +1,24 @@
+.namediv{
+    display: inline;
+}
+.A{
+    visibility:hidden ;
+}
+
+.cardimg{
+    border-radius: 50%;
+}
+.profil{
+    font-family:Verdana ;
+}
+.all{
+    color: #c79e53 ;
+}
+.contact{
+    border:2px solid brown;
+    border-radius: 15px;
+    color: #c79e53;
+    padding: 30px;
+    margin: 20px;
+    
+}

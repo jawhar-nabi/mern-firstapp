@@ -1,0 +1,15 @@
+.correct{
+    border: 1px solid green;
+    background-color: rgba(0, 207, 0, 0.356);
+    border-radius: 5px;
+}
+.falsemdp{
+    margin: 2px;
+    padding: 5px;
+    padding-left: 12px;
+    color: rgb(153, 4, 4);
+    border: 1px solid red;
+    background-color: rgba(207, 0, 0, 0.493);
+    border-radius: 5px;
+
+}

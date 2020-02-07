@@ -1,0 +1,73 @@
+.mb-5 {
+    background: #e9d786;
+    height: 80px;
+    margin-top: 8px;
+    border-radius: 30px;
+    background-color: #e2d59e ;
+}
+.items1{
+    font-size: 18px;
+    text-shadow: 5px;
+    text-emphasis: none;
+    text-decoration: none;
+    color: #c79e53;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding:1px;
+    /* background-color: rgb(255, 170, 131);
+    border-radius: 10px; */
+}
+.item3{
+    width: 80px;
+    font-size: 18px;
+    text-shadow: 5px;
+    text-emphasis: none;
+    text-decoration: none;
+    color: #c79e53;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding:1px;
+
+  
+}
+.item3:hover{
+    color: #c79e53;
+
+}
+.item2{
+    margin:15px 20px 15px 5px;
+}
+.items1:hover{
+    color: #e9d786;
+    background-color: #caa55f;
+    border-radius: 30px;
+    border-spacing: 10px;
+}
+/* .App-logo {
+    color: paleturquoise;
+    margin-top: 15px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', monospace;
+    border-radius: 30px;
+    border-image: 30px;
+} */
+.navbar-toggler-icon{
+    background-color: beige;
+    color: aliceblue;
+}
+.knockout {
+    padding: auto;
+    background: url(https://image.shutterstock.com/image-photo/sunrise-sahara-desert-dunes-morocco-260nw-1231730818.jpg) -80px -90px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-weight: bold;
+    font-size: 60px;
+    font-family: arial, helvetica;
+    margin: 50px auto;
+    text-align: center;
+  }
+.ui.search > .ui.input.icon { width: 120px; }
+
+

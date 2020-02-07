@@ -1,0 +1,30 @@
+/* .top-menu-lead {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+} */
+.knockout1 {
+    padding: auto;
+    background: url(https://image.shutterstock.com/image-photo/sunrise-sahara-desert-dunes-morocco-260nw-1231730818.jpg) -80px -90px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-weight: bold;
+    font-size: 60px;
+    font-family: arial, helvetica;
+    float: left;
+    margin: 50px auto;
+    text-align: left;
+  }
+
+@media screen and (max-width: 600px) {
+    .top-menu-lead {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        float: none;
+    }
+}
